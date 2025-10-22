@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <stdbool.h> // Para usar o tipo 'bool'
+#include <stdbool.h> 
 
-// --- Constantes ---
 #define MAX_ITENS 50
 #define MAX_NOME 50
 #define MAX_TIPO 30
@@ -26,7 +25,6 @@ int numItens = 0;
 
 bool estaOrdenadoPorNome = false;
 
-// --- Protótipos de Funções ---
 void limparTela();
 void pausar();
 void adicionarItem();
